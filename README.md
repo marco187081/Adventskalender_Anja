@@ -6,7 +6,7 @@ Dieses Projekt ist ein romantischer, statischer Adventskalender für GitHub Page
 
 1. Öffne die Datei `index.html` in einem Browser oder starte einen kleinen lokalen Server:
    ```bash
-   cd "C:\Users\Marco\Documents\Adventskalender Freundin Neu"
+   cd "C:\Users\.....\.....\........"
    python -m http.server 8000
    ```
 2. Öffne `http://localhost:8000/`.
