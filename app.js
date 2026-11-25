@@ -1,5 +1,7 @@
 (function () {
-  const STORAGE_KEY = 'advent_calendar_state_v1';
+  const appPath = location.pathname.replace(/\/(?:index|admin)\.html$/i, '/');
+  const appScope = appPath.split('/').filter(Boolean).join('/') || 'root';
+  const STORAGE_KEY = `advent_calendar_state_v1_${appScope}`;
   const USER_SESSION_KEY = 'advent_user_session';
   const ADMIN_SESSION_KEY = 'advent_admin_session';
 
@@ -79,30 +81,30 @@
       }
     }
 
+    if (!remoteState || !Array.isArray(remoteState.doors)) {
+      return location.protocol === 'file:';
+    }
+
     const rawLocalState = localStorage.getItem(STORAGE_KEY);
     if (!rawLocalState) {
-      if (remoteState && Array.isArray(remoteState.doors)) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(ensureDoorList(remoteState)));
-      }
-      return;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(ensureDoorList(remoteState)));
+      return true;
     }
 
     let localState;
     try {
       localState = JSON.parse(rawLocalState);
     } catch (error) {
-      if (remoteState && Array.isArray(remoteState.doors)) {
-        localStorage.setItem(STORAGE_KEY, JSON.stringify(ensureDoorList(remoteState)));
-      }
-      return;
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(ensureDoorList(remoteState)));
+      return true;
     }
 
     const remoteTime = Date.parse(remoteState && remoteState.updatedAt);
     const localTime = Date.parse(localState.updatedAt);
-    if (remoteState && Array.isArray(remoteState.doors) &&
-      Number.isFinite(remoteTime) && (!Number.isFinite(localTime) || remoteTime > localTime)) {
+    if (Number.isFinite(remoteTime) && (!Number.isFinite(localTime) || remoteTime > localTime)) {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(ensureDoorList(remoteState)));
     }
+    return true;
   }
 
   function getCurrentDateInfo() {
@@ -377,6 +379,8 @@
 
     document.getElementById('headerTitle').textContent = state.pageTitle || 'Mein Weihnachtswunder';
     document.getElementById('greetingText').textContent = state.greeting || 'Für dich, meine Liebe.';
+    const loginTitle = document.getElementById('loginTitle');
+    if (loginTitle) loginTitle.textContent = state.pageTitle || 'Mein Weihnachtswunder';
 
     const doorGrid = document.getElementById('doorGrid');
     if (doorGrid) {
@@ -705,8 +709,17 @@
   }
 
   document.addEventListener('DOMContentLoaded', async () => {
-    await loadSharedState();
     const page = document.body.dataset.page;
+    const sharedStateLoaded = await loadSharedState();
+    if (!sharedStateLoaded) {
+      const messageId = page === 'admin' ? 'adminLoginMessage' : 'loginMessage';
+      const message = document.getElementById(messageId);
+      if (message) {
+        message.textContent = 'Kalenderdaten konnten nicht geladen werden. Bitte lade die Seite erneut.';
+      }
+      return;
+    }
+
     if (page === 'home') {
       initHomeLogin();
       renderHomePage();
