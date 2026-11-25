@@ -3,7 +3,7 @@
   "greeting": "Mit ganz viel Liebe für dich gemacht Anja ❤️🤞",
   "unlockMode": "date",
   "countdownEnabled": true,
-  "musicEnabled": false,
+  "musicEnabled": true,
   "musicUrl": "https://mp3tourl.com/audio/1794850052633-05deee40-87da-46da-b5be-6fc8ef95c244.mp3",
   "loginPassword": "weihnachtswunderfüranja",
   "adminPassword": "adventadmin081",
