@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mein Weihnachtswunder</title>
+    <meta
+      name="description"
+      content="Ein romantischer digitaler Adventskalender mit persönlichen Türchen, Countdown und liebevollen Überraschungen."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body data-page="home">
+    <div class="snow-layer" aria-hidden="true"></div>
+    <div class="sparkles-layer" aria-hidden="true"></div>
+    <div id="decorScene" class="decor-scene" aria-hidden="true"></div>
+
+    <section id="loginScreen" class="auth-screen" aria-live="polite">
+      <div class="auth-card">
+        <div class="lock-icon">🔒</div>
+        <p class="eyebrow">Weihnachtsgeheimnis</p>
+        <h1>Mein Weihnachtswunder</h1>
+        <form id="loginForm" class="auth-form">
+          <label class="input-label" for="loginPassword">Passwort</label>
+          <input
+            id="loginPassword"
+            name="password"
+            type="password"
+            maxlength="32"
+            autocomplete="current-password"
+            placeholder="Passwort eingeben"
+            required
+          />
+          <button type="submit" class="primary-btn">Kalender öffnen</button>
+        </form>
+        <p id="loginMessage" class="form-message" role="alert"></p>
+      </div>
+    </section>
+
+    <main id="calendarApp" class="calendar-app hidden" aria-live="polite">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Adventskalender</p>
+          <h2 id="headerTitle">Mein Weihnachtswunder</h2>
+        </div>
+        <div class="topbar-actions">
+          <a class="secondary-btn" href="./admin.html">Admin</a>
+          <button id="toggleMusicBtn" class="secondary-btn" type="button">♪ Musik</button>
+        </div>
+      </header>
+
+      <section class="hero card">
+        <div class="hero-copy">
+          <p class="eyebrow">Meine Liebe</p>
+          <h1 id="greetingText">Für dich, meine Liebste.</h1>
+        </div>
+
+        <div class="countdown-panel">
+          <div class="countdown-header">
+            <span>Bis Weihnachten</span>
+          </div>
+          <div class="countdown-grid">
+            <div class="time-box">
+              <span id="daysValue" class="time-value">00</span>
+              <span class="time-label">Tage</span>
+            </div>
+            <div class="time-box">
+              <span id="hoursValue" class="time-value">00</span>
+              <span class="time-label">Std</span>
+            </div>
+            <div class="time-box">
+              <span id="minutesValue" class="time-value">00</span>
+              <span class="time-label">Min</span>
+            </div>
+            <div class="time-box">
+              <span id="secondsValue" class="time-value">00</span>
+              <span class="time-label">Sek</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="calendar-section">
+        <div id="doorGrid" class="door-grid" aria-label="Adventskalender"></div>
+      </section>
+    </main>
+
+    <div id="doorModal" class="modal hidden" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="close-btn" type="button" aria-label="Türchen schließen" data-close-modal>×</button>
+        <div class="modal-header">
+          <p class="eyebrow" id="doorNumberLabel">Türchen 1</p>
+          <h3 id="modalTitle">Titel</h3>
+        </div>
+        <div id="modalBody" class="modal-body"></div>
+        <div class="modal-footer">
+          <button id="prevDoorBtn" class="secondary-btn" type="button">Zurück</button>
+          <button id="nextDoorBtn" class="secondary-btn" type="button">Weiter</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,373 @@
+{
+  "pageTitle": "Adventskalender 2026",
+  "greeting": "Mit ganz viel Liebe für dich gemacht Anja ❤️🤞",
+  "unlockMode": "date",
+  "countdownEnabled": true,
+  "musicEnabled": true,
+  "musicUrl": "https://mp3tourl.com/audio/1794850052633-05deee40-87da-46da-b5be-6fc8ef95c244.mp3",
+  "loginPassword": "weihnachtswunderfüranja",
+  "adminPassword": "adventadmin081",
+  "doors": [
+    {
+      "id": 1,
+      "title": "Willkommen",
+      "subtitle": "Unser erstes Türchen",
+      "description": "Ein kleiner Anfang für die schönsten Momente mit dir.",
+      "content": "<p>Mein Weihnachtswunder beginnt heute mit dem besten.</p><p>Auf Moji Style 😉.</p>",
+      "images": [],
+      "videos": [
+        "https://mp3tourl.com/videos/1794851833778-57e2c4b3-a917-45fa-a830-18222e46ccee.mp4"
+      ],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 2,
+      "title": "Unsere Liebe",
+      "subtitle": "Ein kleiner Liebesnachweis",
+      "description": "Du bist die schönste Weihnachtsstimmung, die ich mir vorstellen kann.",
+      "content": "<p>Du machst jeden Tag schöner.</p><p>Ich liebe die Art, wie du die Welt mit Wärme und Leichtigkeit erfüllst.</p>",
+      "images": [
+        "https://imprintmytravel.com/wp-content/uploads/2021/12/gelungene-weihnachtsfotos-tipps.jpg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 3,
+      "title": "Kleine Freuden",
+      "subtitle": "Die schönen Dinge",
+      "description": "Manchmal sind die besten Dinge die ganz kleinen.",
+      "content": "<p>Ein Lächeln, eine Umarmung, ein Abend zu zweit.</p><p>Gerade diese Momente sind goldwert.</p>",
+      "images": [
+        "https://mp3tourl.com/images/1794852386653-045d3952-43b1-494b-b2e2-030104227952.jpeg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 4,
+      "title": "Beschimpfungen",
+      "subtitle": "Deine liebevollen Beleidungungen die jeden Tag mehr werden.",
+      "description": "Auch wenn du mich jeden Tag auf neue umbringen willst lieb ich dich trotzdem von ganzem Herzen.",
+      "content": "<p>Sie will mich umbringen\nBastard\nHurensohn\nMit Messer umbringen\nMittelfinger\nSchwanz\nHure\nLauch\nArschloch\nStinkefuß\nIch mag dich nicht\nIch hasse dich\nIch ersticke dich \nBro\nSippi \nDu juckst keinen\nDu juckst mich nicht \nHalts Maul\nHoid di goschn\nZunge\nVor Auto springen\nDu machst mich nicht glücklich \nCrackhead\nIch bin lesbisch \nReudiger Apfelschorle\nPedo\nSchlauch\nOpfer \nBluber\nHalt deine fresse\nIch erschließ dich\nSchlampe\nFotze\nMarco der Pickel\nErsticken\nGeh mir nicht auf den Sack\nSchmuggel\nGulli \nBastardius\nPenner</p>",
+      "images": [
+        "https://mp3tourl.com/images/1794853255103-849d776b-1726-4668-bcc6-a84e82128f7d.jpeg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 5,
+      "title": "Abenteuer",
+      "subtitle": "Gemeinsam",
+      "description": "Die schönsten Reisen sind die, die wir gemeinsam erleben werden.",
+      "content": "<p>Ich freue mich auf den ersten Urlaub mit dir, Montenegro und so Jawoi 🇲🇪.</p>",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB2E5hhUCCwe2SQyX9tOito1NTBxOcm1DeK-TzBkw95YRRwdgY5xxWLwA&s=10"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 6,
+      "title": "Der 6te schon",
+      "subtitle": "Heute bringt dir der Adventskalender ach mal was.",
+      "description": "Heute bringt dir der Adventskalender ach mal was.\nUnzwar gibt es einen Gutschein für dich.",
+      "content": "<p>Gutschein: 1x Nägel machen 🤷‍♀️</p>",
+      "images": [
+        "https://static1.squarespace.com/static/673775214482601424458fcb/t/6aeb12889ad0713cf1363d67/1731714398494/"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 7,
+      "title": "Tanzschule",
+      "subtitle": "Für dich",
+      "description": "Ich weiß dein Herz schlägt für Tanzen aber vielleicht ist da auch noch Platz für mich.",
+      "content": "<p>Ich wünsch dir weiterhin ganz viel Spaß beim Tanzen.</p><p>Ich hoffe das du in denn nächsten Tunieren wo ich dich dann ab Mai immer hinfahre, immer die Besten Plätze bekommst.<p><p>Ich werde dich immer zu 100% unterstützen.<p>",
+      "images": [],
+      "videos": [
+        "https://mp3tourl.com/videos/1794855671110-632f27d5-5b1f-4c1b-b0a1-2203ca564b30.mp4"
+      ],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 8,
+      "title": "Musik ???",
+      "subtitle": "Die Magie in dir",
+      "description": "Auch wenn wir manchmal nicht die gleiche Musik mögen passt es ja trotzdem.",
+      "content": "<p>Du hörst Lieder bei denen ich mir schonmal was denke.</p></p>Hassfrau ???, Bongzimmer  ???</p>",
+      "images": [
+        "https://i.scdn.co/image/ab67616d0000b273c81f541136786b924824153a"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 9,
+      "title": "Schule",
+      "subtitle": "Schuleeeee",
+      "description": "Auch die Schule darf man nicht vergessen.",
+      "content": "<p>Auch wenn das nicht dein Lieblingsthema ist müssen wir das auch einmal ansprechen.</p></p>Ich hoffe das du in der Zukunft gute Noten schreibst da für dich ja auch was rausspringt.</p></p>Ich wünsch mir auch für dich das du deinen Abschluss gut bestehst und eine Ausbildung findest die dir wirklich Spaß macht.</p>",
+      "images": [
+        "https://www.wspassau.de/wp-content/uploads/2019/08/Logo-WSmitwno-1024x900.png"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 10,
+      "title": "Essen",
+      "subtitle": "ESSEN!!!",
+      "description": "Ich weiß das du Essen sehr sehr sehr liebst und es ist jaa gerade Christkindlmarkt.",
+      "content": "<p>Ich lade dich hiermit auf eine oder mehrere 1 Meter Pferdewirschtl ein.</p>",
+      "images": [
+        "https://img.sparknews.funkemedien.de/8755591/8755591_1478312741_v16_9_1200.jpeg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 11,
+      "title": "Film",
+      "subtitle": "Filme?",
+      "description": "Manchmal gute und manchmal schlechte Filme.",
+      "content": "<p>Nur du und ich und ein Film, ein Weihnachtsfilm.</p>",
+      "images": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-mk7zC1R1x1_HVwSUJ_Q-x_7C-BC8VPjbomfOFImPsg&s=10"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 12,
+      "title": "Sterne",
+      "subtitle": "Unser Himmel",
+      "description": "Wenn ich dich sehe, ist mein Himmel klarer.",
+      "content": "<p>Du bist wie ein Stern, der alles heller macht.</p>",
+      "images": [
+        "https://assets.creation.com/assets/2a10ad03-e00d-43ba-9156-3ee7e19e247e"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 13,
+      "title": "Mc Smart Menü",
+      "subtitle": "Gegenleistung",
+      "description": "Ich warte immernoch auf die Gegenleistung.",
+      "content": "<p>So viele Mc Smart Menüs und trotzdem nichts bekommen (Spaß natürlich).</p>",
+      "images": [
+        "https://www.mcdonalds.com/content/dam/sites/de/nfl/publications/2026/20260930_LP_McSmart__Publication_01_2336x1040.jpg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 14,
+      "title": "Tanzschule wieder?",
+      "subtitle": "Tanzen",
+      "description": "Da ich ja weiß wie viel dir die Tanzschule bedeutet hab ich mich dafür entschieden.",
+      "content": "<p>Undzwar ist hinter dem 14ten Türchen ein Gutschein für eine PS (Privatstunde).</p>",
+      "images": [
+        "https://static.wixstatic.com/media/f402bb_2d0c660ea8234a4fb8c66edb4a113a4d~mv2_d_2834_1991_s_2.png"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 15,
+      "title": "Kieferortophäde",
+      "subtitle": "Spange",
+      "description": "Am 02.02.2026 ist es sowei.",
+      "content": "<p>Der Kieferortophäde kommt immer näher und ich hoffe es wird deinen Vorstellungen entsprechend dann so sein.</p>",
+      "images": [
+        "https://mp3tourl.com/images/1794866526824-a0c07945-86c7-4e8a-a287-803bda31b5c5.jpeg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 16,
+      "title": "Schminken",
+      "subtitle": "Kostet viel",
+      "description": "Egal ob für Tounier oder für einfach so schminken.",
+      "content": "<p>Ein weiteres Geschenk was du bestimmt gebrauchen kannst. Gutschein von dm und/oder Rossman in Höhe von 50 €.</p>",
+      "images": [
+        "https://abo.rollingstone.de/wp-content/uploads/2016/05/praemien-rossmann.jpg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 17,
+      "title": "Zufall oder Schicksal",
+      "subtitle": "Ein Geschenk",
+      "description": "Du bist eines der größten Geschenke in meinem Leben.",
+      "content": "<p>Ich bin so dankbar für dich, dass ich so viele Momente mit dir Teilen kann und ich hoffe es wird auch weiterhin so bleiben.</p>",
+      "images": [
+        "https://mp3tourl.com/images/1794868192032-1c0e815e-9a3a-45ce-82d8-b4e0623709b4.png"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 18,
+      "title": "Genau richtig",
+      "subtitle": "18 ?",
+      "description": "Zwar nicht der 18te aber ein 18ter genauer gesamt der 18. Mai.",
+      "content": "<p>Ab 18. Mai wird sich mein und dein Leben komplett verändern ab da werd ich richtig ausgenutzt.</p>",
+      "images": [
+        "https://i.ytimg.com/vi/-kOM7kcTzYw/maxresdefault.jpg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 19,
+      "title": "Nachhilfe",
+      "subtitle": "Spracherweiterung",
+      "description": "Es ist nicht leicht aber wer will der kann alles schaffen.",
+      "content": "<p>Ich kann auch sehr viel von dir noch lernen wie zum Beispiel Russich auch wenn es nicht leicht ist werd ich Tag für Tag ein kleines wenig besser und dafür bin ich dir auch sehr dankbar.</p></p>Zum Beispiel kann ich schon das Russiche Alphabet und Zahlen</p>",
+      "images": [
+        "https://plakos-akademie.de/wp-content/uploads/2019/02/russisches-alphabet.jpg"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 20,
+      "title": "Augenblicke",
+      "subtitle": "Die wertvollsten",
+      "description": "Jeder Moment mit dir zählt, egal wie klein er ist.",
+      "content": "<p>Manchmal sind die schönsten Dinge die, die keiner fotografiert.</p>",
+      "images": [],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": false,
+      "opened": false
+    },
+    {
+      "id": 21,
+      "title": "Besonderer Tag",
+      "subtitle": "Gemeinsam",
+      "description": "21.07.2026 war der Tag an dem wir offiziell Zusammen gekommen sind.",
+      "content": "<p>Ich kann mich an den Tag noch sehr gut errinern einer der Schönsten Momente und zu diesem 5 Monatigem Anlass möchte ich dich sehr gerne zum Essen einladen.</p></p>Du suchst aus wo wir Essen gehen und ich will nicht Pommes Freunde hören, du kannst dir aussuchen wo du Lust hast</p>",
+      "images": [],
+      "videos": [
+        "https://mp3tourl.com/videos/1794861998394-ee8f72cd-a5c9-4293-a7d8-04e3d93a5414.mp4"
+      ],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    },
+    {
+      "id": 22,
+      "title": "Sofort",
+      "subtitle": "Für dich",
+      "description": "Wenn ich dich liebe, dann immer und ohne Zweifel.",
+      "content": "<p>Du bist mein Lieblingsort und meine größte Freude.</p>",
+      "images": [],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": false,
+      "opened": false
+    },
+    {
+      "id": 23,
+      "title": "Späte Nacht",
+      "subtitle": "Mit dir",
+      "description": "Die beste Nacht ist die, in der du neben mir bist.",
+      "content": "<p>Ich mag die ruhigen Momente, in denen die Welt vor uns zurücktritt.</p>",
+      "images": [],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": false,
+      "opened": false
+    },
+    {
+      "id": 24,
+      "title": "Weihnachten",
+      "subtitle": "Mein Lieblingsgeschenk",
+      "description": "Es ist soweit aber lange noch nicht vorbei.",
+      "content": "<p>Ich wünsch dir von ganzem Herzen dir und deiner ganzen Familie ein wunderschönes Weihnachten, dass ihr alle gesund bleibt und weiterhin viel Erfolg habt.</p></p>Denk nicht das das schon alles war, dass richtige Geschenk kommt noch, sei gespannt!</p><p>Ich liebe dich von ganzen Herzen❤️.</p>",
+      "images": [
+        "https://www.cityproducts.de/media/2f/07/4b/1754710947/624f27e68242466790d17ce8db2683a0.jpg?ts=1754710947"
+      ],
+      "videos": [],
+      "links": [],
+      "active": true,
+      "manualUnlocked": true,
+      "opened": true
+    }
+  ],
+  "backgroundImages": [
+    "https://mp3tourl.com/images/1794851663174-38ee31d2-74a3-45ef-9e43-5f8a24c7f6b6.png",
+    "https://mp3tourl.com/images/1794851679706-e3e207bf-53fd-493b-b75b-730cf7420cb7.png",
+    "https://mp3tourl.com/images/1794851693397-e5e09e5b-46ce-4133-9b48-df3aa3c6d009.png"
+  ],
+  "backgroundMessage": "Привет Аня",
+  "updatedAt": "2026-11-16T22:42:40.452Z"
+}
