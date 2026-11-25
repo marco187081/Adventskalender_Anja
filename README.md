@@ -10,8 +10,7 @@ Dieses Projekt ist ein romantischer, statischer Adventskalender für GitHub Page
    python -m http.server 8000
    ```
 2. Öffne `http://localhost:8000/`.
-3. Passwort für den Kalender: `weihnachtswunder` (standardmäßig).
-4. Admin-Login: `adventadmin` (standardmäßig).
+
 
 ## GitHub Pages veröffentlichen
 
